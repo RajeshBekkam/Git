@@ -76,8 +76,8 @@ git log --patch                 # Shows the actual changes (patches)
 ### Filtering the history 
 ```
 git log -3                       # Shows the last 3 entries 
-git log --author=“Mosh” 
-git log --before=“2020-08-17” 
+git log --author=“Rajesh” 
+git log --before=“2023-08-17” 
 git log --after=“one week ago” 
 git log --grep=“GUI”            # Commits with “GUI” in their message 
 git log -S“GUI”                 # Commits with “GUI” in their patches 
@@ -86,11 +86,11 @@ git log file.txt                # Commits that touched file.txt
 ```
 ### Formatting the log output
 ```
-git log --pretty=format:”%an committed %H"
+git log --pretty=format:”%an committed %H"    #Format Log output
 ```
 ### Creating an alias
 ```
-git config --global alias.lg “log --oneline"
+git config --global alias.lg “log --oneline"    #Create alias
 ```
 ### Viewing a commit
 ```
